@@ -6,5 +6,8 @@
 
 MIUICAMERA_PATH := device/xiaomi/spring-miuicam
 
+# Sepolicy
+BOARD_VENDOR_SEPOLICY_DIRS += $(MIUICAMERA_PATH)/sepolicy/vendor
+
 # Inherit from the proprietary version
 include vendor/xiaomi/spring-miuicam/BoardConfigVendor.mk

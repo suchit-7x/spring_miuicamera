@@ -1,1 +1,3 @@
 # All unpinned blobs below are extracted from spring OS3.0.302.0.WOUMIXM
+
+product/priv-app/MiuiCamera/MiuiCamera.apk:system/priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Aperture,Camera,Camera2,GoogleCameraGo
